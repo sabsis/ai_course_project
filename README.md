@@ -64,7 +64,8 @@ How could your project grow and become something even more? What kind of skills,
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
+* Special thanks to my instructors and peers for their insights and support throughout this course.
+   
 * do not use code, images, data etc. from others without permission
 * when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
   <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
