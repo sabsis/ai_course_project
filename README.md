@@ -1,40 +1,32 @@
-# ai_course_project
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Project Title
+# AI Course Project
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+This project is about getting more familiar with AI, coding, and different software tools. I aim to create a simple application that can help users analyze and visualize data effectively, making AI more accessible to non-technical users.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+This project addresses several critical problems:
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+* **Inefficient data processing:** Many small businesses struggle to analyze data quickly due to limited resources.
+* **User accessibility:** Non-technical users often find it challenging to use existing AI tools, which can hinder decision-making.
+* **Lack of insights:** Businesses often miss out on valuable insights that AI could provide if only they had the right tools.
 
+These issues are quite common, especially among startups and small enterprises where resources are often constrained. My personal motivation comes from my experiences working with small teams that rely heavily on data but lack the tools to interpret it effectively. This topic is important as AI has the potential to revolutionize how we approach problems and make decisions in various fields.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The solution will be implemented as a web-based application that small to medium-sized enterprises can use to integrate AI into their operations. It is particularly needed in fast-paced environments, such as during business meetings or project planning sessions, where quick data analysis is essential. The primary users will include entrepreneurs, project managers, and data analysts, who all have unique needs for intuitive tools that provide clear insights without requiring deep technical expertise.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Data Analysis](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
 This is how you create code examples:
-```
+```python
 def main():
    countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
    pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
@@ -44,18 +36,15 @@ def main():
    totFish = sum(fishers)
 
    # write your solution here
-
    for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+      print("%s %.2f%%" % (countries[i], (fishers[i] / totFish) * 100))
 
 main()
-```
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+My data comes from publicly available datasets and APIs, such as the Twitter API for social media insights. Additionally, I will gather data from company records to analyze trends in sales and customer engagement.
+
 
 | Syntax      | Description |
 | ----------- | ----------- |
@@ -64,17 +53,13 @@ If you need to use links, here's an example:
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This project does not solve issues related to data privacy and the ethical implications of AI usage. It is crucial to consider potential biases in AI algorithms and ensure that the solutions provided do not reinforce existing inequalities. Additionally, there are challenges in educating users about responsible AI use.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Moving forward, this project could grow into a more robust platform that offers advanced analytics, machine learning capabilities, and user engagement features. I would need assistance in areas like user experience design and advanced machine learning techniques to enhance its capabilities. Collaboration with data scientists and UI/UX designers would be particularly beneficial.
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Special thanks to my instructors and peers for their insights and support throughout this course.
