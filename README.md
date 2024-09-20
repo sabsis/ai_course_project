@@ -40,11 +40,13 @@ def main():
       print("%s %.2f%%" % (countries[i], (fishers[i] / totFish) * 100))
 
 main()
+```
 
 
 ## Data sources and AI methods
-My data comes from publicly available datasets and APIs, such as the Twitter API for social media insights. Additionally, I will gather data from company records to analyze trends in sales and customer engagement.
-
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
 
 | Syntax      | Description |
 | ----------- | ----------- |
@@ -53,13 +55,17 @@ My data comes from publicly available datasets and APIs, such as the Twitter API
 
 ## Challenges
 
-This project does not solve issues related to data privacy and the ethical implications of AI usage. It is crucial to consider potential biases in AI algorithms and ensure that the solutions provided do not reinforce existing inequalities. Additionally, there are challenges in educating users about responsible AI use.
+What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
 ## What next?
 
-Moving forward, this project could grow into a more robust platform that offers advanced analytics, machine learning capabilities, and user engagement features. I would need assistance in areas like user experience design and advanced machine learning techniques to enhance its capabilities. Collaboration with data scientists and UI/UX designers would be particularly beneficial.
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
 
 ## Acknowledgments
 
-* Special thanks to my instructors and peers for their insights and support throughout this course.
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
